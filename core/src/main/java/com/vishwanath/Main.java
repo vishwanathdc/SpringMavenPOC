@@ -15,10 +15,17 @@ public class Main {
         ConfigurableApplicationContext context
                 = new ClassPathXmlApplicationContext(CONFIG_LOCATION);
 
+        //get number generator context from container
         NumberGenerator numgen = context.getBean("numberGenerator", NumberGenerator.class  );
 
         int number = numgen.next();
 
         log.info("number = {}", number);
+
+        //get game bean context from container
+        Game game = context.getBean("game", Game.class);
+        game.reset();
+
+        context.close();
     }
 }

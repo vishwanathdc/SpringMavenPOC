@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78b56b23-c1b2-4bf8-9632-6f5c9bd5e2c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/vishwanath/GameImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/vishwanath/GameImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/vishwanath/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/vishwanath/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/vishwanath/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/vishwanath/Main.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +106,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
